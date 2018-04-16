@@ -1,10 +1,7 @@
 # DiCoblock
-
 Next generation Blockchain =)
 
 ## Paper List
-
----
 - Genral
     - [Bitcoin: A Peer-to-Peer Electronic Cash System, Satoshi Nakamoto, 2008](https://bitcoin.com/bitcoin.pdf)
 - Smart Contracts
