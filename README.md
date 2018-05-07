@@ -1,5 +1,5 @@
 # DiCoblock
-Next generation Blockchain =)
+Next Generation Blockchain =)
 
 ## Materials
 - Genral
@@ -11,3 +11,13 @@ Next generation Blockchain =)
     - [ETHERREUM: A SECURE DECENTRALISED GENERALISED TRANSACTION LEDGER, Gavin Wood, 2014](http://gavwood.com/paper.pdf)
 - Benchmark
     - [GLOBAL CRYPTOCURRENCY BENCHMARKING STUDY, Garrick Hileman and Michel Rauchs, 2017](https://www.jbs.cam.ac.uk/fileadmin/user_upload/research/centres/alternative-finance/downloads/2017-global-cryptocurrency-benchmarking-study.pdf)
+
+## Issues
+- Solidity
+  - [Security Considerations](http://solidity.readthedocs.io/en/v0.4.23/security-considerations.html)
+  - [Predicting Random Numbers in Ethereum Smart Contracts](https://blog.positive.com/predicting-random-numbers-in-ethereum-smart-contracts-e5358c6b8620)
+  - [Float-Point Numbers](http://solidity.readthedocs.io/en/develop/types.html#fixed-point-numbers)
+
+## Modules
+- Solidity
+  - [Eth-Random](https://www.npmjs.com/package/eth-random)
