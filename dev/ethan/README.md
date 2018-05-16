@@ -1,6 +1,6 @@
 # Ethan Kim
 
-- Blog  : [hackability.kr](hackability.kr)
+- Blog  : [hackability.kr](http://hackability.kr)
 - Email : <hackability@i2sec.co.kr>
 
 ## Dev issues
