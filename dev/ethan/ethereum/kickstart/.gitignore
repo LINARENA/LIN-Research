@@ -4,3 +4,6 @@
 # mac
 DS_Store
 .DS_Store
+
+# nextjs
+.next/
