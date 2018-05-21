@@ -17,7 +17,7 @@ Next Generation Blockchain =)
   - [Security Considerations](http://solidity.readthedocs.io/en/v0.4.23/security-considerations.html)
   - [Predicting Random Numbers in Ethereum Smart Contracts](https://blog.positive.com/predicting-random-numbers-in-ethereum-smart-contracts-e5358c6b8620)
   - [Float-Point Numbers](http://solidity.readthedocs.io/en/develop/types.html#fixed-point-numbers)
-
+  
 ## Modules
 - Solidity
   - [Eth-Random](https://www.npmjs.com/package/eth-random)

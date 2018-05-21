@@ -28,6 +28,9 @@
     - https://github.com/ConsenSys/ethjsonrpc/issues/26
     - Add the prefix `0x` to the hexstring
 
+## Vulnerability Research
+  - [Array Length Over/Underflow Bug](https://github.com/dicoblock/Dicoblock/blob/master/dev/ethan/research/vulnerability/01_Array_Length_Underflow/README.md)
+
 ## CTF
   - 2018 DEFCON sag
 
