@@ -49,29 +49,29 @@ players[index].transfer(address(this).balance);
   - The issues is when you import other solidity file and compile it with solc, there is an error said the file not found.
   - For example,
     - `https://github.com/dicoblock/Dicoblock/tree/master/dev/ethan/ethereum/gembling/ethereum/contracts`
-  ```
-\- ethereum
-  \- contracts
-    \- games
-    | \- Zerosum.sol
-    \- GemFactory.sol
-  ```
+    ```
+    \- ethereum
+      \- contracts
+        \- games
+        | \- Zerosum.sol
+        \- GemFactory.sol
+    ```
   - The `GemFactory.sol` try to include `games/Zerosum.sol`. It works where you trying on remix but, it failed my `compile.js` (solc)
     - `https://github.com/dicoblock/Dicoblock/blob/master/dev/ethan/ethereum/gembling/ethereum/compile.js`
   - This is because when you compile `GemFactory.sol` that is include `games/Zerosum.sol` but they can't found the file.
   - I can resolve this issue by adding souces as dictionary which has key as the path.
-  ```js
-var targets = {
-  "GemFactory.sol": fs.readFileSync(contractPath + '/GemFactory.sol', 'utf8'),
-  "ownership/Ownable.sol": fs.readFileSync(contractPath + '/ownership/Ownable.sol', 'utf8'),  
-  "games/Zerosum.sol": fs.readFileSync(contractPath + '/games/Zerosum.sol', 'utf8')
-};
+    ```js
+    var targets = {
+      "GemFactory.sol": fs.readFileSync(contractPath + '/GemFactory.sol', 'utf8'),
+      "ownership/Ownable.sol": fs.readFileSync(contractPath + '/ownership/Ownable.sol', 'utf8'),  
+      "games/Zerosum.sol": fs.readFileSync(contractPath + '/games/Zerosum.sol', 'utf8')
+    };
 
-//const gemPath = path.resolve(__dirname, 'contracts', 'GemFactory.sol');
-//const source = fs.readFileSync(gemPath, 'utf-8');
+    //const gemPath = path.resolve(__dirname, 'contracts', 'GemFactory.sol');
+    //const source = fs.readFileSync(gemPath, 'utf-8');
 
-const output = solc.compile({sources: targets}, 1).contracts;
-  ```
+    const output = solc.compile({sources: targets}, 1).contracts;
+    ```
   - As you can see, the `targets` dictionary has key as path that we want to specify in the solidity file.
 
 ## Vulnerability Research
