@@ -6,6 +6,8 @@
   - `npm init`
 - install
   - `npm install [module_name]`
+  - when npm install error is occured (windows)
+    - `npm install --global --production windows-build-tools`
 
 ## git
 
