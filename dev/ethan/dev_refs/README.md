@@ -1,14 +1,32 @@
-# def_refs
-
-## Markdown
+# Common Development References
 
 ## npm
 
-- npm install module_name
+- init
+  - `npm init`
+- install
+  - `npm install [module_name]`
 
 ## git
 
+- init
+  - `git init`
+- add
+  - `git add [filename]`
+  - `git add *`
+- commit
+  - `git commit -m "message"`
+- status
+  - `git status`
+- remove
+  - `git rm [filename]`
+- rename
+  - `git mv [old_filename] [new_filename]`
+- history, log
+  - `git history`
+  - `git log`
+
 ## visual studio code
 
-- editing rules
-  - markdown: <https://github.com/DavidAnson/markdownlint/blob/v0.8.1/doc/Rules.md#md009>
+- Editing Rules (markdownlint)
+  - markdown: <https://github.com/DavidAnson/markdownlint/blob/v0.8.1/doc/Rules.md>
